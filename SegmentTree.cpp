@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MAXN=1000;
+const int MAXN=1001;
 int ele[MAXN],seg[4*MAXN];
 
 void build(int index,int low,int high){
